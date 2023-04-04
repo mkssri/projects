@@ -1,0 +1,158 @@
+/*External CSS*/
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444; /*same as 444444*/
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase; /* changes all font to the uppercase */
+  font-style: italic;
+  /*if we have 2 definitions it will use the last one, meaning if we have 2 color's css will simply choose the lastone*/
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase; /* changes all font to the uppercase */
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase; /* changes all font to the uppercase */
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5; /* it simply means line height will be 1.5*fontsize */
+}
+
+li {
+  font-size: 20px;
+}
+
+/* selects all p elements of footer elements */
+/* footer p {
+  font-size: 16px;
+} */
+
+/* selects all p elements of footer elements */
+/* article header p {
+  font-style: italic;
+} */
+
+/* for selection of ids we use # */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* for selection of classes we use . */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+/* Element Selector */
+aside {
+  background-color: #f7f7f7;
+  /*border: 5px solid #1098ad;
+  border: 5px dotted #1098ad;
+  border: 5px dashed #1098ad;*/
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /*border-left: 5px solid #1098ad;
+  border-right: 5px solid #1098ad;*/
+}
+
+body {
+  /* background-color: orange; */
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(2) {
+  color: red;
+} */
+
+/* li:nth-child(odd) {
+  color: red;
+} */
+
+/* li:nth-child(even) {
+  color: red;
+} */
+
+/* This won't work: Murali did not understand it */
+article p:first-child {
+  color: red;
+}
+
+/* article p:last-child {
+  color: red;
+} */
+
+/* Styling Links */
+/* lvha */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline wavy orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
